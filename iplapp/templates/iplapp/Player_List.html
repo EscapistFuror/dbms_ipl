@@ -1,0 +1,11 @@
+<div>
+    <h1><a href="/">Django Girls Blog</a></h1>
+</div>
+
+
+{% for Player in Players %}
+    <div>
+        <p>Name: {{ Player.name }},{{ Player.country}}</p>
+        <p>{{ Player.TName }}</p>
+    </div>
+{% endfor %}

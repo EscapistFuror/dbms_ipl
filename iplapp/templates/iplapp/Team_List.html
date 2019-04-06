@@ -1,0 +1,13 @@
+<div>
+    <h1><a href="/">Django Girls Blog</a></h1>
+</div>
+
+
+{% for Team in Teams %}
+    <div>
+        <p>Name: {{ Team.TName }}</p>
+        <h2><a href="">{{ Team.text }}</a></h2>
+        <h2><a href="Player_List">click</a></h2>
+        <p>{{ Team.funds }}</p>
+    </div>
+{% endfor %}
