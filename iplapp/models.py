@@ -22,4 +22,4 @@ class Sold_Players(models.Model):
     bid_price = models.IntegerField()
     TName = models.ForeignKey(Team, on_delete=models.CASCADE)
     def __str__(self):
-        return self.name
+        return str(self.name.name)
